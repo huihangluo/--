@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .sub-header{
+            position:fixed;
+            height : 100px ;
+            width: 100vw;
+            background-color: whitesmoke;
+            left:0;
+            top:0;
+            
+        }
+        .container{
+            width: 1280px;
+            margin: 0 auto;
+        }
+        .sub-header .logo{
+           width: 400px; 
+           height:100px;
+           float: left;
+        }
+        .sub-header .menu-list{
+            float: left;
+            line-height: 100px;
+        }
+        .sub-header .menu-list a{   /*a*/
+            display: inline-block;
+            padding: 0 10px 0 10px;
+            text-decoration: none;
+            font-size: 16px;
+            opacity: 0.8;
+            color:black;
+
+        }
+        .sub-header .menu-list a:hover{   /*a hover*/
+            display: inline-block;
+            padding: 0 10px 0 10px;
+            text-decoration: none;
+            font-size: 16px;
+            opacity: 0.8;
+            color:#ff6670;
+
+        }
+        .sub-header .search{
+            float: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="sub-header">
+        <div class="container">
+            <div class="logo">
+                <img style="height:100px" src="/static/商标.jpg"> 
+            </div>
+            <div class="menu-list">
+                <a href="/">HOME</a>
+                <a name="PRODUCT" href="/PRODUCT">PRODUCT</a>
+                <a>CASES</a>
+                <a>NEWS</a>
+                <a>ABOUT US</a>
+            </div>
+            <div class="search">3</div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
